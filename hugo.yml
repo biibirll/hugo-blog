@@ -1,0 +1,37 @@
+baseurl: https://biibirll.github.io
+DefaultContentLanguage: pt-br
+title: O Mundo Estranho de Gabs
+theme: beautifulhugo
+
+Params:
+  subtitle: Um manual de sobrevivência para a vida sem garantia de sucesso
+
+  mainSections:
+    - posts
+
+  logo: img/avatar-icon.png
+  favicon: img/favicon.ico
+
+  commit: false
+  rss: true
+  wordCount: true
+  socialShare: true
+  showRelatedPosts: true
+
+Author:
+  name: Gabs
+  github: biibirll
+  linkedin: biibirll
+  mastodon: https://bolha.us/@biibirll
+
+menu:
+  main:
+    - name: Blog
+      url: ""
+      weight: 1
+    - name: Sobre mim
+      url: page/about/
+      weight: 3
+    - name: Tags
+      url: tags
+      weight: 3
